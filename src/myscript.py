@@ -11,10 +11,12 @@ def percentage(z):
 def simpleInterest(p,t,r):
     return (p*t*r)
 
+myhouse={'Kitchen':'white','Bedroom':'peach','Dining':'yellow'}
+
 print(my_square(3))
 
 print (my_cube(4))
 print(percentage(5))
 print(simpleInterest(1000,2,0.05))
-
+print(myhouse)
 
