@@ -2,12 +2,15 @@
 
 import csv
 import sys
+from itertools import islice
+
 
 def income_expense(filename):
     total = 0.0
     with open(filename,'r') as f:
-        rows = csv.reader(f)
-        headers = next(rows)
+        rows = csv.reader(islice(f,5,None))
+        #rows = csv.reader(f)
+        #headers = next(rows)
         for row in rows:
           row[3] = float(row[3])
           total += row[3]
