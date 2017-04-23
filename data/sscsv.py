@@ -8,7 +8,7 @@ from itertools import islice
 def income_expense(filename):
     total = 0.0
     with open(filename,'r') as f:
-        rows = csv.reader(islice(f,5,None))
+        rows = csv.reader(islice(f,6,None))
         #rows = csv.reader(f)
         #headers = next(rows)
         for row in rows:
@@ -18,6 +18,6 @@ def income_expense(filename):
 
 
 total = income_expense(sys.argv[1])
-print('The Net total is:${0:.3f}'.format(total))
+print('The Net total is: ${0:.3f}'.format(total))
 
 
