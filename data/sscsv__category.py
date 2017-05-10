@@ -19,7 +19,7 @@ def populate_category(filename, item):
                 row[3] = float(row[3])
                 cat_tot = cat_tot + row[3]
         #print("%s is: %f" %(item, cat_tot))
-        print("{} total is: ${:.2f}".format(item, cat_tot))
+        print("{} total is: ${:.2f}\n".format(item, cat_tot))
         
             
 def categories(filename):

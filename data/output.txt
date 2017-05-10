@@ -1,0 +1,32 @@
+$308.40 	Running income	
+($161.88)	Running expense	
+		
+		
+DATE	CATEGORY	AMOUNT
+1/1/2017	Account Opening Balance	1347.3
+1/1/2017	SS Photo Fundraiser	80
+1/22/2017	SS Offertory	6.3
+1/29/2017	SS Offertory	17
+1/29/2017	Office Supply/Postage	-33.36
+2/5/2017	SS Offertory	5.25
+2/5/2017	VBS Food Sale	5
+2/12/2017	SS Offertory	17.6
+2/12/2017	SS Photo Fundraiser	10
+2/19/2017	SS Offertory	6.5
+2/19/2017	SS Donation	20
+2/26/2017	SS Offertory	7.5
+3/5/2017	SS Offertory	13
+3/12/2017	SS Offertory	5.25
+3/19/2017	SS Offertory	9
+3/19/2017	Curriculum Books	7
+3/26/2017	Exam Registration	35
+3/26/2017	SS Offertory	12
+4/3/2017	Office Supply/Postage	-6.65
+4/2/2017	SS Offertory	7
+4/9/2017	SS Offertory	12
+4/2/2017	Exam Registration	15
+4/10/2017	Exam Registration	10
+4/10/2017	Easter	-22.78
+4/16/2017	Easter	-39.09
+3/31/2017	Exam Registration	-60
+4/23/2017	SS Offertory	8
