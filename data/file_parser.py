@@ -27,15 +27,31 @@ for line in fh:
 
 fw = open('nation_capital.txt','w')
 
+ques_ans = {}
 question = []
 answer = []
 for line in fh:
-    line = line.strip().split(' ')
+    line = line.strip()
+    print(line)
+    #line = line.strip().split(' ')
     #question.append(line[0])
     #answer.append(line[1])
-    fw.write(line[0])
-    fw.write(',')
-    fw.write("\n")
+    fw.write(line)
+    fw.write('\n')
+    line = line.split(',')
+    ques_ans[line[0]] = line[1]
+    question.append(line[0])
+    answer.append(line[1])
+    
+    
+print(ques_ans)
+print(question)
+print(answer)
+print("The number of countries is " + str(len(question)))
+    
+    
+
+    
 
     
     

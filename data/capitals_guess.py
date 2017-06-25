@@ -69,7 +69,8 @@ for key in state_capitals:
 	
 	
 	
-state_list = list(state_capitals.keys())
+state_list= list(state_capitals.keys())
+t = list(state_capitals.keys())
 
 #for i in state_list: 
 #    print(i)

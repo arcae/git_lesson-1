@@ -24,7 +24,7 @@ def populate_category(filename, item):
             
 def categories(filename):
     with open(filename, 'r') as f:
-        rows = csv.reader(islice(f,6,None))
+        rows = csv.reader(islice(f,9,None))
         #headers = next(rows)
         for row in rows:
             cat_list.append(row[0])
